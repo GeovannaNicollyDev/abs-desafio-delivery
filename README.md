@@ -12,8 +12,8 @@
   -> Ao final, pedidos do tipo "Take Out" (Delivery), recebm uma tampa sem furo, enquanto os pedidos do tipo "Eat In" (Comer no próprio restaurante) recebm uma tampa com furo para o canudo. 
 
 # Tecnologias Utilizadas 🛠️
-IDE de desenvolvimento: Eclipse
-Linguagem utilizada: JAVA
+#### IDE de desenvolvimento: Eclipse
+#### Linguagem utilizada: JAVA
 
 
 
