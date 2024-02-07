@@ -35,6 +35,19 @@
 #### -> Este trecho de código utiliza a estrutura de controle switch para determinar qual bebida foi escolhida pelo usuário e então atribuir essa bebida ao objeto bebida.
 #### -> O switch determina a bebida escolhida pelo usuário com base no valor de opcaoBebida e então atribui essa bebida ao objeto bebida, utilizando o método setBebidas().
 
+## Escolher gelo:
+![image](https://github.com/GeovannaNicollyDev/abs-desafio-delivery/assets/129456783/ac101ee6-3b59-47f1-9339-6f710f0cef16)
+
+#### -> O programa pergunta ao usuário se ele deseja gelo em sua bebida.
+#### -> O usuário fornece uma entrada para indicar se quer gelo ou não (char gelo). O tipo de dado char foi usado para armazenar as respostas do usuário para as perguntas sobre gelo, tamanho da bebida e embalagem para viagem. 
+#### -> O loop while garante que a entrada do usuário seja válida (ou seja, 'S' ou 'N'). Este while garante que o programa só avance após receber uma entrada válida do usuário para indicar se deseja ou não gelo em sua bebida, evitando erros relacionados a respostas inválidas.
+#### -> Definindo se a bebida terá gelo ou não: if - verifica se o caractere armazenado na variável gelo, convertido para maiúsculo, é igual a 'S'. Isso significa que o usuário indicou que deseja gelo em sua bebida. / else if - verifica se o caractere armazenado em gelo, convertido para maiúsculo, é igual a 'N'. Isso significa que o usuário indicou que não deseja gelo em sua bebida. / else - assume que o usuário deseja gelo, então bebida.setGelo(true); define que a bebida terá gelo.
+#### -> Por último, é definida a quantidade de gelo, através do setQuantidadeGelo(0);
+
+## Tamanho da bebida:
+
+
+
 
 
 
