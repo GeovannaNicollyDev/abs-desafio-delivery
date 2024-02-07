@@ -84,6 +84,54 @@
   #### Impressão das informações do pedido:
   + Após a escolha do usuário, o programa imprime as informações sobre a bebida, que provavelmente incluem o tipo de bebida, presença de gelo, tamanho e se o pedido será para viagem ou não.
 
+# Enums: 💡
+![image](https://github.com/GeovannaNicollyDev/abs-desafio-delivery/assets/129456783/562a0e2d-6c53-4c54-b35a-23dd90c1d041)
+
+#### -> Os enums servem para:
+  + Clareza e legibilidade: Enums permitem que você defina um conjunto de valores específicos que são semanticamente relacionados. Isso torna o código mais claro e legível, já que você pode usar nomes descritivos para cada constante.
+  + Facilidade de manutenção: Se você precisar adicionar ou remover valores possíveis, pode fazer isso facilmente no enum, e o compilador ajudará a garantir que todas as referências ao enum sejam atualizadas corretamente.
+  + Agrupamento lógico de constantes: Enums permitem agrupar constantes relacionadas em um único lugar. Isso facilita a manutenção e organização do código.
+
+#### -> No código acima, os enums estão sendo usados para representar diferentes tipos de bebidas (Bebidas), tamanhos (Tamanho), tipos de copos (TipoDeCopo) e se o pedido será para viagem ou consumo no local (TakeOutEatIn). Isso ajuda a organizar e representar esses conceitos de maneira clara e estruturada no programa.
+
+## Enum TakeOutEatIn: 
+![image](https://github.com/GeovannaNicollyDev/abs-desafio-delivery/assets/129456783/ded2c4c2-247a-4f34-b298-97e2f61c69b0)
+
+## Enum Tamanho:
+![image](https://github.com/GeovannaNicollyDev/abs-desafio-delivery/assets/129456783/780c5f29-8b67-4a9e-9031-ae3789cca3fe)
+
+## Enum Bebidas: 
+![image](https://github.com/GeovannaNicollyDev/abs-desafio-delivery/assets/129456783/5a428cd9-f1a0-475b-a86e-bac0936937ca)
+
+## Enum TipoDeCopo:
+![image](https://github.com/GeovannaNicollyDev/abs-desafio-delivery/assets/129456783/919d8a88-954f-40a5-b482-0917b5158b5e)
+
+# Pacote dominio:
+![image](https://github.com/GeovannaNicollyDev/abs-desafio-delivery/assets/129456783/dbcccc09-9cc6-459d-965e-33558271f3b3)
+
+#### -> O pacote "domínio" em um projeto de software serve para agrupar classes que representam entidades ou conceitos centrais do domínio de negócios da aplicação. Geralmente, essas classes modelam os principais objetos ou entidades com os quais o sistema interage e que são fundamentais para o funcionamento da aplicação.
+#### -> Dentro do nosso pacote dominio, é possivel ver a classe "Bebida", esta classe encapsula os dados e comportamentos relacionados a uma bebida, como tipo de bebida, tamanho, quantidade de gelo, entre outros.
+
+## Construtores da classe bebidas:
+![image](https://github.com/GeovannaNicollyDev/abs-desafio-delivery/assets/129456783/1207155e-a23b-44d8-a83c-2d5b45f46cdc)
+
+## Getters e setters da classe bebidas:
+![image](https://github.com/GeovannaNicollyDev/abs-desafio-delivery/assets/129456783/1509298d-e091-411d-9ff1-d02bfe6a6682)
+
+## Return string:
+![image](https://github.com/GeovannaNicollyDev/abs-desafio-delivery/assets/129456783/c90e8d61-a09f-4368-8fbf-b14d284a11a2)
+
+#### -> Esse trecho fornece detalhes sobre o pedido da bebida, incluindo informações sobre o tipo de copo, bebida escolhida, tamanho do copo, tipo de tampa, quantidade de gelo e uma mensagem de agradecimento.
+
+
+
+
+
+
+
+
+
+
 
 
 
