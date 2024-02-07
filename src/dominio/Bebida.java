@@ -78,8 +78,9 @@ public class Bebida {
 
 	@Override
 	public String toString() {
-		return "Pedido a ser produzido:\n" + "Tipo do copo -> " + tipoDeCopo;
-		// return "Bebida [tipoDeCopo=" + tipoDeCopo + ", bebidas=" + bebidas + ", tamanho=" + tamanho  + ", tampa=" + tampa.getDescricao() + ", quantidadeGelo=" + quantidadeGelo + "]";
+		return "\n" + "Pedido a ser produzido:\n" + "\n" + "Tipo do copo -> " + tipoDeCopo + "\n" + "Bebida escolhida -> " + bebidas + "\n" + "Tamanho do copo -> " + tamanho + "\n" + "Tipo de tampa -> " + tampa.getDescricao() + "\n" + "Quantidade de gelo no copo -> " + quantidadeGelo + "\n" + "\n" + "Obrigado por nos escolher, a ABS agradece o seu pedido!";       
+		
+		//return "Bebida [tipoDeCopo=" + tipoDeCopo + ", bebidas=" + bebidas + ", tamanho=" + tamanho  + ", tampa=" + tampa.getDescricao() + ", quantidadeGelo=" + quantidadeGelo + "]";
 	}
 	
 	
