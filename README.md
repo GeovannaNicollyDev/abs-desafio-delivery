@@ -15,7 +15,7 @@
 #### IDE de desenvolvimento: Eclipse
 #### Linguagem utilizada: JAVA
 
-# Classe Main e principais atribuições:
+# Classe Main e principais atribuições: ⭐
 ## Escolher bebida:
 ![image](https://github.com/GeovannaNicollyDev/abs-desafio-delivery/assets/129456783/9b526924-ccc3-4840-b4f0-ab50708ab236)
 
@@ -24,6 +24,28 @@
 #### -> O usuário entra com o número correspondente à bebida desejada através do "int opcaoBebida"
 
 ## Loop de validação da opção da bebida:
+![image](https://github.com/GeovannaNicollyDev/abs-desafio-delivery/assets/129456783/8ed93b79-8f64-40df-a38d-ef10ab227873)
+
+#### -> Este trecho de código tem a finalidade de garantir que o usuário insira uma opção válida de bebida.
+#### -> Garante que o programa só avance após receber uma entrada válida do usuário, garantindo que o pedido da bebida seja feito com sucesso e evitando erros relacionados a opções inválidas.
+
+## Switch para atribuir a bebida selecionada:
+![image](https://github.com/GeovannaNicollyDev/abs-desafio-delivery/assets/129456783/1a7279e5-d504-413b-978f-341e2fd7aad9)
+
+#### -> Este trecho de código utiliza a estrutura de controle switch para determinar qual bebida foi escolhida pelo usuário e então atribuir essa bebida ao objeto bebida.
+#### -> O switch determina a bebida escolhida pelo usuário com base no valor de opcaoBebida e então atribui essa bebida ao objeto bebida, utilizando o método setBebidas().
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
