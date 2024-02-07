@@ -74,15 +74,15 @@
 #### -> Esse trecho de código permite que o usuário escolha se deseja embalar o pedido para viagem ou não e, com base nessa escolha, define a propriedade tampa da bebida. 
 #### -> Em seguida, ele imprime as informações atualizadas sobre o pedido.
   #### Exibição da pergunta ao usuário:
-    + O programa exibe uma mensagem perguntando ao usuário se deseja que o pedido seja embalado para viagem, oferecendo as opções "S" para SIM e "N" para NÃO.
+  + O programa exibe uma mensagem perguntando ao usuário se deseja que o pedido seja embalado para viagem, oferecendo as opções "S" para SIM e "N" para NÃO.
   #### Leitura da resposta do usuário:
-    + O programa lê a entrada do usuário utilizando o método next() da classe Scanner e armazena o primeiro caractere digitado na variável isViagem.
+   + O programa lê a entrada do usuário utilizando o método next() da classe Scanner e armazena o primeiro caractere digitado na variável isViagem.
   #### Switch para tratar a resposta:
-    + Um switch é utilizado para determinar a ação a ser tomada com base na resposta do usuário, convertendo o caractere para maiúsculo com Character.toUpperCase(isViagem).
-    + Se o usuário selecionar "S", indicando que deseja embalagem para viagem, a bebida é marcada com a opção TakeOutEatIn.TAKE_OUT (para viagem).
-    + Se o usuário selecionar "N", indicando que não deseja embalagem para viagem, a bebida é marcada com a opção TakeOutEatIn.EAT_IN (para consumo no local).
+  + Um switch é utilizado para determinar a ação a ser tomada com base na resposta do usuário, convertendo o caractere para maiúsculo com Character.toUpperCase(isViagem).
+  + Se o usuário selecionar "S", indicando que deseja embalagem para viagem, a bebida é marcada com a opção TakeOutEatIn.TAKE_OUT (para viagem).
+  + Se o usuário selecionar "N", indicando que não deseja embalagem para viagem, a bebida é marcada com a opção TakeOutEatIn.EAT_IN (para consumo no local).
   #### Impressão das informações do pedido:
-    + Após a escolha do usuário, o programa imprime as informações sobre a bebida, que provavelmente incluem o tipo de bebida, presença de gelo, tamanho e se o pedido será para viagem ou não.
+  + Após a escolha do usuário, o programa imprime as informações sobre a bebida, que provavelmente incluem o tipo de bebida, presença de gelo, tamanho e se o pedido será para viagem ou não.
 
 
 
