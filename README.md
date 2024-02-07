@@ -48,6 +48,51 @@
 #### -> Por último, é definida a quantidade de gelo, através do bebida.setQuantidadeGelo(0);
 
 ## Tamanho da bebida:
+### Solicitação do tamanho da bebida e exibição das opções:
+![image](https://github.com/GeovannaNicollyDev/abs-desafio-delivery/assets/129456783/1b7054fc-1f5b-4482-9821-d428b0b16c92)
+
+#### -> O programa solicita ao usuário que escolha o tamanho da bebida. 
+#### -> Dependendo da opção de bebida selecionada (opcaoBebida), são exibidas as opções de tamanho disponíveis. Se a opção de bebida for para Coca-Cola ou Guaraná, são exibidos os tamanhos "P", "M" e "G", caso contrário, são exibidos apenas os tamanhos "P" e "M".
+#### -> Além disso, o programa configura o tipo de copo e, se necessário, a quantidade de gelo com base na opção de bebida e se o usuário deseja gelo.
+
+### Leitura e validação do tamanho da bebida:
+![image](https://github.com/GeovannaNicollyDev/abs-desafio-delivery/assets/129456783/4da7fc10-cb41-41ff-aa22-8ee12379f9fc)
+
+#### -> O programa lê a entrada do usuário para o tamanho da bebida e armazena o primeiro caractere digitado na variável tamanhoBebida.
+#### -> O loop while é utilizado para validar se a entrada do usuário é uma opção válida de tamanho ("P", "M" ou "G"). Enquanto a entrada não for válida, o programa solicita que o usuário digite novamente.
+#### -> O método Character.toUpperCase() é usado para garantir que tanto letras maiúsculas quanto minúsculas sejam tratadas como válidas.
+
+### Atribuição do tamanho selecionado à bebida: 
+![image](https://github.com/GeovannaNicollyDev/abs-desafio-delivery/assets/129456783/67d9a6a9-703e-44f3-8486-902998bf3d08)
+
+#### -> É utilizado um switch para determinar qual tamanho foi selecionado pelo usuário com base na entrada armazenada em tamanhoBebida.
+#### -> Em seguida, o programa atribui esse tamanho à bebida utilizando o método setTamanho() do objeto bebida.
+
+### Pedido TakeOut ou EatIn:
+![image](https://github.com/GeovannaNicollyDev/abs-desafio-delivery/assets/129456783/fb0658f7-72aa-4e95-872d-5e73f13a1ed1)
+
+#### -> Esse trecho de código permite que o usuário escolha se deseja embalar o pedido para viagem ou não e, com base nessa escolha, define a propriedade tampa da bebida. 
+#### -> Em seguida, ele imprime as informações atualizadas sobre o pedido.
+  #### Exibição da pergunta ao usuário:
+    + O programa exibe uma mensagem perguntando ao usuário se deseja que o pedido seja embalado para viagem, oferecendo as opções "S" para SIM e "N" para NÃO.
+  #### Leitura da resposta do usuário:
+    + O programa lê a entrada do usuário utilizando o método next() da classe Scanner e armazena o primeiro caractere digitado na variável isViagem.
+  #### Switch para tratar a resposta:
+    + Um switch é utilizado para determinar a ação a ser tomada com base na resposta do usuário, convertendo o caractere para maiúsculo com Character.toUpperCase(isViagem).
+    + Se o usuário selecionar "S", indicando que deseja embalagem para viagem, a bebida é marcada com a opção TakeOutEatIn.TAKE_OUT (para viagem).
+    + Se o usuário selecionar "N", indicando que não deseja embalagem para viagem, a bebida é marcada com a opção TakeOutEatIn.EAT_IN (para consumo no local).
+  #### Impressão das informações do pedido:
+    + Após a escolha do usuário, o programa imprime as informações sobre a bebida, que provavelmente incluem o tipo de bebida, presença de gelo, tamanho e se o pedido será para viagem ou não.
+
+
+
+
+
+
+
+
+
+
 
 
 
