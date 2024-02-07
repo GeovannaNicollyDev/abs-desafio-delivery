@@ -1,5 +1,5 @@
 # Desafio ABS delivery:
-### O desafio consiste em desenvolver um sistema de bebidas automatizados, onde nesse sistema, um comando é enviado ao ABS que irá preparar a bebida de acordo com algumas regras, sendo elas:
+#### O desafio consiste em desenvolver um sistema de bebidas automatizados, onde nesse sistema, um comando é enviado ao ABS que irá preparar a bebida de acordo com algumas regras, sendo elas:
 
   -> O ABS possui 4 sabores de bebida, sendo 2 refrigerantes (Coca e Guaraná) e 2 sucos (Uva e Laranjas);
   
