@@ -14,8 +14,7 @@ public class Main {
 		Scanner sc = new Scanner(System.in);
 
 		System.out.println("---> Seja bem-vindo ao sistema ABS! <---");
-		System.out.println(
-				"| O seu sistema incrível de bebidas e o mais queridinho da galera |");
+		System.out.println("| O seu sistema incrível de bebidas e o mais queridinho da galera. |");
 		System.out.println(">>> Vamos ao seu pedido: <<<");
 		System.out.println("\n");
 
