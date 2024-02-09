@@ -12,8 +12,9 @@ public class Bebida {
 	private boolean isGelo;
 	private TakeOutEatIn tampa;
 	private int quantidadeGelo;
-	
-	public Bebida(TipoDeCopo tipoDeCopo, Bebidas bebidas, Tamanho tamanho, boolean isGelo, TakeOutEatIn tampa, int quantidadeGelo) {
+
+	public Bebida(TipoDeCopo tipoDeCopo, Bebidas bebidas, Tamanho tamanho,
+			boolean isGelo, TakeOutEatIn tampa, int quantidadeGelo) {
 		super();
 		this.tipoDeCopo = tipoDeCopo;
 		this.bebidas = bebidas;
@@ -21,11 +22,11 @@ public class Bebida {
 		this.isGelo = isGelo;
 		this.tampa = tampa;
 		this.quantidadeGelo = quantidadeGelo;
-		
+
 	}
-	
+
 	public Bebida() {
-		
+
 	}
 
 	public TipoDeCopo getTipoDeCopo() {
@@ -78,12 +79,16 @@ public class Bebida {
 
 	@Override
 	public String toString() {
-		return "\n" + "Pedido a ser produzido:\n" + "\n" + "Tipo do copo -> " + tipoDeCopo + "\n" + "Bebida escolhida -> " + bebidas + "\n" + "Tamanho do copo -> " + tamanho + "\n" + "Tipo de tampa -> " + tampa.getDescricao() + "\n" + "Quantidade de gelo no copo -> " + quantidadeGelo + "\n" + "\n" + "Obrigado por nos escolher, a ABS agradece o seu pedido!";       
-		
-		//return "Bebida [tipoDeCopo=" + tipoDeCopo + ", bebidas=" + bebidas + ", tamanho=" + tamanho  + ", tampa=" + tampa.getDescricao() + ", quantidadeGelo=" + quantidadeGelo + "]";
+		return "\n" + "Pedido realizado com sucesso!\n" + "\n" + "Pedido a ser produzido:\n" + "\n" + "Tipo do copo -> "
+				+ tipoDeCopo + "\n" + "Bebida escolhida -> " + bebidas + "\n"
+				+ "Tamanho do copo -> " + tamanho + "\n" + "Tipo de tampa -> "
+				+ tampa.getDescricao() + "\n" + "Quantidade de gelo no copo -> "
+				+ quantidadeGelo + "\n" + "\n"
+				+ "Obrigada por nos escolher, a ABS agradece o seu pedido!";
+
+		// return "Bebida [tipoDeCopo=" + tipoDeCopo + ", bebidas=" + bebidas +
+		// ", tamanho=" + tamanho + ", tampa=" + tampa.getDescricao() + ",
+		// quantidadeGelo=" + quantidadeGelo + "]";
 	}
-	
-	
-	
-	
+
 }
